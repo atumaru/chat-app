@@ -1,5 +1,4 @@
 class RoomsController < ApplicationController
-<<<<<<< Updated upstream
   def index
     new
   end
@@ -24,6 +23,4 @@ class RoomsController < ApplicationController
     params.require(:room).permit(:name, user_ids: [])
   end
 
-=======
->>>>>>> Stashed changes
 end
